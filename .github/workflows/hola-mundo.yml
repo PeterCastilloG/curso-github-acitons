@@ -1,1 +1,12 @@
-name:
+name: Curso platzi hola mundo
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    - name: Test
+      with:
+        script: echo "Test"
