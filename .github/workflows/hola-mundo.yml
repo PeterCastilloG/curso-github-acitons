@@ -12,4 +12,4 @@ jobs:
       - name: Test
         run: echo "Test"
       - name: Test 1
-        run: Echo "Test 1 ${{ github.event_name }}"
+        run: echo "Test 1 ${{ github.event_name }}"
